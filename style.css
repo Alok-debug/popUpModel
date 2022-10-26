@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button{
+    color: white;
+    background: rebeccapurple;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.popup-container{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.popup-container.active{
+    display: flex;
+}
+
+.popup{
+    background: white;
+    padding: 2rem;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(101, 224, 170);
+    display: flex;
+
+
+}
+
+.part1{
+    width: 90%;
+}
